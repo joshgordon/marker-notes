@@ -1,13 +1,13 @@
 #!/bin/bash
 
-mdHead="<html><head><link href="/style.css" rel="stylesheet"></link><title>"
+mdHead="<html><head><link href="http://notes.joshgordon.net/style.css" rel="stylesheet"></link><title>"
 
 mdHead2="</title></head><body>" 
 
 mdFoot="</body></html>" 
 
 #patterns to exclude. Anything grep matches will handle this. 
-exclude="index Makefile mkIndex style html README.md" 
+exclude="index Makefile mkIndex style html README.md make_markdown.sh" 
 
 ################################################################################
 rootDir=`pwd`
